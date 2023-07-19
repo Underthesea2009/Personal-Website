@@ -1,0 +1,281 @@
+/* Reset default margins and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for the body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header .name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header .links {
+    margin-top: 10px;
+  }
+  
+  .header .links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .header .links a.active {
+    font-weight: bold;
+  }
+  
+  /* Main content styles */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  main h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  main h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  main img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  main p {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    main {
+      padding: 10px;
+    }
+    
+    header {
+      padding: 10px;
+    }
+    
+    .header .name {
+      font-size: 20px;
+    }
+    
+    .header .links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .header .links a {
+      margin: 5px 0;
+    }
+  }
+  
+  
+  /* styles for all pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .links a.active {
+    color: #ff6600;
+  }
+  
+  main {
+    padding: 40px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+  
+  .quote {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .media-link {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    header {
+      padding: 10px;
+    }
+  
+    .name {
+      font-size: 1.2rem;
+    }
+  
+    .links a {
+      font-size: 0.8rem;
+    }
+  
+    main {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1rem;
+    }
+  
+    .quote {
+      font-size: 1rem;
+    }
+  
+    footer {
+      padding: 10px;
+    }
+  
+    .media-link {
+      width: 20px;
+      height: 20px;
+      margin: 3px;
+    }
+  }
+  
+  
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ebdf3e;
+    color: #d6a1a1;
+    padding: 10px;
+}
+
+header .name {
+    font-size: 24px;
+}
+
+nav.links {
+    display: inline-block;
+}
+
+nav.links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav.links a.active {
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+section.project {
+    margin: 20px 0;
+}
+
+h2.project-name {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+span.name {
+    font-weight: bold;
+}
+
+nav.links a {
+    text-transform: uppercase;
+}
+
+nav.links a:hover {
+    color: #ffcc00;
+}
+
+.active {
+    color: #ffcc00;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project img {
+    margin-top: 10px;
+}
