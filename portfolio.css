@@ -1,0 +1,59 @@
+/* Reset some default styles for the body and header */
+body, header {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: #f3bdbd;
+    color: #bea5e6;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .name {
+    font-size: 24px;
+  }
+  
+  header .links a {
+    color: #6d9bd6;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  header .links a.active {
+    font-weight: bold;
+  }
+  
+  /* Style the main section */
+  main {
+    padding: 20px;
+  }
+  
+  main h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  section.project {
+    margin-bottom: 40px;
+  }
+  
+  section.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  section.project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section.project p {
+    margin-bottom: 15px;
+  }
+  
