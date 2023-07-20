@@ -202,80 +202,91 @@ body {
   
   
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* Reset default margins and paddings for elements */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
 }
 
+/* Set some basic styling for the header */
 header {
-    background-color: #ebdf3e;
-    color: #d6a1a1;
-    padding: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
-header .name {
-    font-size: 24px;
+.header .name {
+  font-size: 24px;
 }
 
-nav.links {
-    display: inline-block;
+.header .links {
+  display: flex;
+  justify-content: center;
 }
 
-nav.links a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
+.header .links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
 }
 
-nav.links a.active {
-    font-weight: bold;
+.header .links a.active {
+  background-color: #fff;
+  color: #333;
 }
+
 
 main {
-    padding: 20px;
-}
-
-h1 {
-    font-size: 32px;
-}
-
-section.project {
-    margin: 20px 0;
-}
-
-h2.project-name {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-img {
-    max-width: 100%;
-}
-
-
-span.name {
-    font-weight: bold;
-}
-
-nav.links a {
-    text-transform: uppercase;
-}
-
-nav.links a:hover {
-    color: #ffcc00;
-}
-
-.active {
-    color: #ffcc00;
+  padding: 20px;
 }
 
 .project {
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.project-name {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .project img {
-    margin-top: 10px;
+  width: 50%;
+  max-height: 50px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Set some basic styling for the footer */
+footer {
+  background-color: #333;
+  color: #a4cc76;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  color: #da8d8d;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.footer img.media-link {
+  width: 10px;
+  height: 10px;
+  margin-bottom: -5px;
+  margin-left: 5px;
+}
+
+/* Add more specific styles for social media links in the footer */
+footer a[href*="facebook.com"] {
+  color: #1877f2;
+}
+
+footer a[href*="linkedin.com"] {
+  color: #0e76a8;
+}
+
+footer a[href*="twitter.com"] {
+  color: #1da1f2;
 }
