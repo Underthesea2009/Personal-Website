@@ -1,5 +1,6 @@
 /* Reset some default styles for the body and header */
 body, header {
+  background-color: #bea5e6;
     margin: 0;
     padding: 0;
   }
@@ -55,5 +56,11 @@ body, header {
   
   section.project p {
     margin-bottom: 15px;
+  }
+
+  .media-link {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
   }
   
