@@ -1,0 +1,16 @@
+2023-08-30 20:26:28.875 [info] Log level: Info
+2023-08-30 20:26:28.875 [info] Validating found git in: "git"
+2023-08-30 20:26:28.875 [info] Using git "2.34.1" from "git"
+2023-08-30 20:26:28.875 [info] > git rev-parse --show-toplevel [889ms]
+2023-08-30 20:26:28.875 [info] > git rev-parse --git-dir --git-common-dir [632ms]
+2023-08-30 20:26:28.875 [info] Open repository: /home/aom91/coursework/block22/Unit2.PartyLogs.Starter
+2023-08-30 20:26:30.320 [info] > git config --get commit.template [925ms]
+2023-08-30 20:26:30.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [303ms]
+2023-08-30 20:26:30.949 [info] > git check-ignore -v -z --stdin [248ms]
+2023-08-30 20:26:31.063 [info] > git status -z -uall [163ms]
+2023-08-30 20:26:32.025 [info] > git show --textconv :script.js [176ms]
+2023-08-30 20:26:32.040 [info] > git ls-files --stage -- /home/aom91/coursework/block22/Unit2.PartyLogs.Starter/script.js [95ms]
+2023-08-30 20:26:32.245 [info] > git config --get commit.template [682ms]
+2023-08-30 20:26:32.391 [info] > git cat-file -s fdb3b03329a92a888934bc1fc841520f7c7ee890 [286ms]
+2023-08-30 20:26:33.499 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [303ms]
+2023-08-30 20:26:35.074 [info] > git status -z -uall [212ms]

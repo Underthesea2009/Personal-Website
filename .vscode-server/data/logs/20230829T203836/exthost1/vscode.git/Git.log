@@ -1,0 +1,13 @@
+2023-08-29 20:45:11.233 [info] Log level: Info
+2023-08-29 20:45:11.234 [info] Validating found git in: "git"
+2023-08-29 20:45:11.234 [info] Using git "2.34.1" from "git"
+2023-08-29 20:45:11.234 [info] > git rev-parse --show-toplevel [22ms]
+2023-08-29 20:45:11.238 [info] > git rev-parse --git-dir --git-common-dir [31ms]
+2023-08-29 20:45:11.323 [info] Open repository: /home/aom91/coursework/block22/Unit2.PartyLogs.Starter
+2023-08-29 20:45:11.432 [info] > git config --get commit.template [35ms]
+2023-08-29 20:45:11.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2023-08-29 20:45:11.548 [info] > git status -z -uall [22ms]
+2023-08-29 20:45:11.669 [info] > git config --get commit.template [20ms]
+2023-08-29 20:45:11.709 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2023-08-29 20:45:11.748 [info] > git status -z -uall [10ms]
+2023-08-29 20:45:12.057 [info] > git check-ignore -v -z --stdin [6ms]

@@ -1,0 +1,20 @@
+2023-09-10 18:34:19.302 [info] 
+
+
+
+
+2023-09-10 18:34:19.354 [info] Extension host agent started.
+2023-09-10 18:34:19.555 [info] [127.0.0.1][32005c3e][ManagementConnection] New connection established.
+2023-09-10 18:34:22.261 [info] [127.0.0.1][49a46161][ExtensionHostConnection] New connection established.
+2023-09-10 18:34:23.236 [info] [127.0.0.1][49a46161][ExtensionHostConnection] <6433> Launched Extension Host Process.
+2023-09-10 19:38:10.195 [info] [127.0.0.1][32005c3e][ManagementConnection] The client has reconnected.
+2023-09-10 19:38:11.051 [info] [127.0.0.1][49a46161][ExtensionHostConnection] The client has reconnected.
+2023-09-11 17:44:32.945 [warning] No ptyHost heartbeat after 6 seconds
+2023-09-11 17:45:08.171 [info] [127.0.0.1][32005c3e][ManagementConnection] The client has reconnected.
+2023-09-11 17:45:10.046 [info] [127.0.0.1][49a46161][ExtensionHostConnection] The client has reconnected.
+2023-09-11 19:39:00.810 [info] [127.0.0.1][49a46161][ExtensionHostConnection] The client has reconnected.
+2023-09-11 19:39:01.940 [info] [127.0.0.1][32005c3e][ManagementConnection] The client has reconnected.
+2023-09-11 21:26:31.367 [info] [127.0.0.1][32005c3e][ManagementConnection] The client has reconnected.
+2023-09-11 21:26:32.064 [info] [127.0.0.1][49a46161][ExtensionHostConnection] The client has reconnected.
+2023-09-12 17:35:27.200 [info] [127.0.0.1][32005c3e][ManagementConnection] The client has reconnected.
+2023-09-12 17:35:27.276 [info] [127.0.0.1][49a46161][ExtensionHostConnection] The client has reconnected.
