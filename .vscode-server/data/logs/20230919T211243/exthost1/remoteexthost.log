@@ -1,0 +1,228 @@
+2023-09-19 21:13:18.036 [info] Extension host with pid 3474 started
+2023-09-19 21:13:19.604 [info] Lock '/home/aom91/.vscode-server/data/User/workspaceStorage/bd8277c10208c7093c62620bbe520d78/vscode.lock': Lock acquired.
+2023-09-19 21:13:22.455 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-19 21:13:22.471 [info] ExtensionService#_doActivateExtension antfu.vite, startup: true, activationEvent: '*'
+2023-09-19 21:13:22.482 [info] ExtensionService#_doActivateExtension ms-vscode.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2023-09-19 21:13:22.675 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-09-19 21:13:23.966 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-19 21:13:23.978 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-19 21:13:23.981 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2023-09-19 21:13:29.534 [info] Not activating extension 'Orta.vscode-jest': Timed out while searching for 'workspaceContains' pattern **/jest.config.{js,ts,mjs,cjs,json},**/jest.json,**/.vscode-jest
+2023-09-19 21:13:32.134 [info] ExtensionService#_doActivateExtension kavod-io.vscode-jest-test-adapter, startup: true, activationEvent: '*'
+2023-09-19 21:13:38.461 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-19 21:13:38.465 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-19 21:13:38.467 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-09-19 21:13:38.481 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-09-19 21:13:38.483 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-09-19 21:13:43.552 [info] Eager extensions activated
+2023-09-19 21:14:17.405 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2023-09-19 21:14:17.425 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-19 21:14:34.092 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2023-09-19 21:14:47.002 [warning] [Decorations] CAPPING events from decorations provider vscode.git 11481
+2023-09-19 21:17:28.932 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascriptreact'
+2023-09-19 21:18:22.026 [warning] [Decorations] CAPPING events from decorations provider vscode.git 11486
+2023-09-19 21:19:28.951 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.952 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.953 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.965 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.966 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.967 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.968 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.969 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.979 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.981 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.982 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.983 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.984 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.985 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.996 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.997 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:28.999 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.000 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.001 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.001 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.012 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.013 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.014 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.015 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.015 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.016 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.017 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.028 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.029 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.029 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.030 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.031 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.031 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:19:29.032 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:399:5)
+	at errorBuffer (node:internal/streams/writable:520:31)
+	at afterWrite (node:internal/streams/writable:504:5)
+	at onwrite (node:internal/streams/writable:480:7)
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:12)
+2023-09-19 21:23:11.467 [warning] [Decorations] CAPPING events from decorations provider vscode.git 11499

@@ -1,0 +1,40 @@
+2023-09-19 21:13:47.083 [info] Log level: Info
+2023-09-19 21:13:47.084 [info] Validating found git in: "git"
+2023-09-19 21:13:47.084 [info] Using git "2.34.1" from "git"
+2023-09-19 21:13:47.084 [info] > git rev-parse --show-toplevel [2946ms]
+2023-09-19 21:13:47.120 [info] > git rev-parse --git-dir --git-common-dir [175ms]
+2023-09-19 21:13:47.636 [info] Open repository: /home/aom91
+2023-09-19 21:13:48.033 [info] > git config --get commit.template [130ms]
+2023-09-19 21:13:48.073 [info] > git rev-parse --show-toplevel [116ms]
+2023-09-19 21:13:49.429 [info] > git rev-parse --show-toplevel [1022ms]
+2023-09-19 21:13:49.493 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1170ms]
+2023-09-19 21:13:53.700 [info] > git fetch [6058ms]
+2023-09-19 21:13:54.071 [info] > git status -z -uall [4520ms] (cancelled)
+2023-09-19 21:13:54.181 [info] > git config --get commit.template [146ms]
+2023-09-19 21:13:54.182 [info] > git config --get commit.template [226ms]
+2023-09-19 21:13:56.476 [info] > git check-ignore -v -z --stdin [2187ms]
+2023-09-19 21:13:57.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [701ms]
+2023-09-19 21:13:57.881 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1513ms]
+2023-09-19 21:14:13.998 [info] > git check-ignore -v -z --stdin [124ms]
+2023-09-19 21:14:27.192 [info] > git show --textconv :coursework/block28/ReactRouter/src/index.css [122ms]
+2023-09-19 21:14:27.227 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/index.css [65ms]
+2023-09-19 21:14:34.035 [info] > git status -z -uall [36158ms] (cancelled)
+2023-09-19 21:17:05.472 [info] > git fetch [5653ms]
+2023-09-19 21:17:05.792 [info] > git config --get commit.template [61ms]
+2023-09-19 21:17:05.795 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2023-09-19 21:17:45.620 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/index.css [50ms]
+2023-09-19 21:18:03.151 [info] > git show --textconv :coursework/block28/ReactRouter/src/App.jsx [758ms]
+2023-09-19 21:18:03.218 [info] > git show --textconv :coursework/block28/ReactRouter/src/index.css [260ms]
+2023-09-19 21:18:03.250 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/App.jsx [473ms]
+2023-09-19 21:19:26.517 [info] > git status -z -uall [140573ms] (cancelled)
+2023-09-19 21:23:07.381 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/index.css [29ms]
+2023-09-19 21:23:07.399 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/App.jsx [21ms]
+2023-09-19 21:23:07.587 [info] > git show --textconv :coursework/block28/ReactRouter/src/index.css [41ms]
+2023-09-19 21:23:07.602 [info] > git show --textconv :coursework/block28/ReactRouter/src/App.jsx [19ms]
+2023-09-19 21:23:08.120 [info] > git fetch [2092ms]
+2023-09-19 21:23:08.189 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-09-19 21:23:08.195 [info] > git config --get commit.template [30ms]
+2023-09-19 21:23:09.370 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/index.css [21ms]
+2023-09-19 21:23:09.382 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/App.jsx [15ms]
+2023-09-19 21:23:09.435 [info] > git show --textconv :coursework/block28/ReactRouter/src/index.css [29ms]
+2023-09-19 21:23:09.445 [info] > git show --textconv :coursework/block28/ReactRouter/src/App.jsx [14ms]

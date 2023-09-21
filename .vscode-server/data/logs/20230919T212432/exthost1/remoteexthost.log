@@ -1,0 +1,25 @@
+2023-09-19 21:24:54.904 [info] Extension host with pid 5166 started
+2023-09-19 21:24:54.972 [error] Error: EEXIST: file already exists, open '/home/aom91/.vscode-server/data/User/workspaceStorage/bd8277c10208c7093c62620bbe520d78/vscode.lock'
+2023-09-19 21:24:55.149 [info] Lock '/home/aom91/.vscode-server/data/User/workspaceStorage/bd8277c10208c7093c62620bbe520d78/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-09-19 21:24:55.210 [info] Lock '/home/aom91/.vscode-server/data/User/workspaceStorage/bd8277c10208c7093c62620bbe520d78/vscode.lock': The pid 3474 appears to be gone.
+2023-09-19 21:24:55.210 [info] Lock '/home/aom91/.vscode-server/data/User/workspaceStorage/bd8277c10208c7093c62620bbe520d78/vscode.lock': Deleting a stale lock.
+2023-09-19 21:24:55.664 [info] Lock '/home/aom91/.vscode-server/data/User/workspaceStorage/bd8277c10208c7093c62620bbe520d78/vscode.lock': Lock acquired.
+2023-09-19 21:24:59.439 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2023-09-19 21:24:59.450 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-19 21:24:59.455 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascriptreact'
+2023-09-19 21:25:01.567 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-19 21:25:01.570 [info] ExtensionService#_doActivateExtension antfu.vite, startup: true, activationEvent: '*'
+2023-09-19 21:25:01.573 [info] ExtensionService#_doActivateExtension ms-vscode.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2023-09-19 21:25:01.657 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-09-19 21:25:06.680 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-19 21:25:06.682 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-19 21:25:06.685 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2023-09-19 21:25:10.346 [info] Not activating extension 'Orta.vscode-jest': Timed out while searching for 'workspaceContains' pattern **/jest.config.{js,ts,mjs,cjs,json},**/jest.json,**/.vscode-jest
+2023-09-19 21:25:11.774 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-19 21:25:11.788 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-19 21:25:11.801 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-09-19 21:25:11.804 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-09-19 21:25:11.806 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-09-19 21:25:26.497 [info] ExtensionService#_doActivateExtension kavod-io.vscode-jest-test-adapter, startup: true, activationEvent: '*'
+2023-09-19 21:25:50.298 [info] Eager extensions activated
+2023-09-19 21:26:39.068 [warning] [Decorations] CAPPING events from decorations provider vscode.git 11490

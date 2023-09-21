@@ -1,0 +1,180 @@
+0 verbose cli /home/aom91/.nvm/versions/node/v18.16.1/bin/node /home/aom91/.nvm/versions/node/v18.16.1/bin/npm
+1 info using npm@9.5.1
+2 info using node@v18.16.1
+3 timing npm:load:whichnode Completed in 32ms
+4 timing config:load:defaults Completed in 24ms
+5 timing config:load:file:/home/aom91/.nvm/versions/node/v18.16.1/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 25ms
+8 timing config:load:env Completed in 43ms
+9 timing config:load:file:/home/aom91/.cache/typescript/5.2/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 5ms
+11 timing config:load:file:/home/aom91/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 2ms
+13 timing config:load:file:/home/aom91/.nvm/versions/node/v18.16.1/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 25ms
+16 timing config:load Completed in 138ms
+17 timing npm:load:configload Completed in 140ms
+18 timing npm:load:mkdirpcache Completed in 56ms
+19 timing npm:load:mkdirplogs Completed in 2ms
+20 verbose title npm install types-registry@latest
+21 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+22 timing npm:load:setTitle Completed in 34ms
+23 timing config:load:flatten Completed in 82ms
+24 timing npm:load:display Completed in 118ms
+25 verbose logfile logs-max:10 dir:/home/aom91/.npm/_logs/2023-09-21T00_32_05_916Z-
+26 verbose logfile /home/aom91/.npm/_logs/2023-09-21T00_32_05_916Z-debug-0.log
+27 timing npm:load:logFile Completed in 128ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 520ms
+31 timing arborist:ctor Completed in 33ms
+32 silly logfile start cleaning logs, removing 1 files
+33 silly logfile done cleaning log files
+34 timing idealTree:init Completed in 3523ms
+35 timing arborist:ctor Completed in 1ms
+36 http fetch GET 200 https://registry.npmjs.org/types-registry 3755ms (cache revalidated)
+37 timing idealTree:userRequests Completed in 4375ms
+38 silly idealTree buildDeps
+39 silly fetch manifest types-registry@0.1.661
+40 silly placeDep ROOT types-registry@0.1.661 REPLACE for:  want: 0.1.661
+41 timing idealTree:#root Completed in 185ms
+42 timing idealTree:node_modules/types-registry Completed in 0ms
+43 timing idealTree:buildDeps Completed in 228ms
+44 timing idealTree:fixDepFlags Completed in 36ms
+45 timing idealTree Completed in 8204ms
+46 timing reify:loadTrees Completed in 8238ms
+47 timing reify:diffTrees Completed in 79ms
+48 silly reify moves {}
+49 timing reify:retireShallow Completed in 32ms
+50 timing reify:createSparse Completed in 1ms
+51 timing reify:loadBundles Completed in 0ms
+52 silly audit bulk request {
+52 silly audit   '@babel/helper-string-parser': [ '7.22.5' ],
+52 silly audit   '@babel/helper-validator-identifier': [ '7.22.15' ],
+52 silly audit   '@babel/parser': [ '7.22.16' ],
+52 silly audit   '@babel/types': [ '7.22.17' ],
+52 silly audit   '@types/argparse': [ '2.0.10' ],
+52 silly audit   '@types/array.prototype.flat': [ '1.2.1' ],
+52 silly audit   '@types/array.prototype.flatmap': [ '1.2.2' ],
+52 silly audit   '@types/babel__code-frame': [ '7.0.4' ],
+52 silly audit   '@types/babel__core': [ '7.20.2' ],
+52 silly audit   '@types/babel__generator': [ '7.6.5' ],
+52 silly audit   '@types/babel__helper-module-imports': [ '7.18.1' ],
+52 silly audit   '@types/babel__helper-plugin-utils': [ '7.10.1' ],
+52 silly audit   '@types/babel__helper-validator-identifier': [ '7.15.0' ],
+52 silly audit   '@types/babel__template': [ '7.4.2' ],
+52 silly audit   '@types/babel__traverse': [ '7.20.2' ],
+52 silly audit   '@types/balanced-match': [ '1.0.4' ],
+52 silly audit   '@types/brace-expansion': [ '1.1.0' ],
+52 silly audit   '@types/call-bind': [ '1.0.3' ],
+52 silly audit   '@types/caniuse-lite': [ '1.0.2' ],
+52 silly audit   '@types/color-convert': [ '2.0.1' ],
+52 silly audit   '@types/color-name': [ '1.1.1' ],
+52 silly audit   '@types/concat-map': [ '0.0.1' ],
+52 silly audit   '@types/convert-source-map': [ '2.0.1' ],
+52 silly audit   '@types/cross-spawn': [ '6.0.3' ],
+52 silly audit   '@types/debug': [ '4.1.8' ],
+52 silly audit   '@types/define-properties': [ '1.1.3' ],
+52 silly audit   '@types/doctrine': [ '0.0.6' ],
+52 silly audit   '@types/es-abstract': [ '1.17.3' ],
+52 silly audit   '@types/es-to-primitive': [ '1.2.4' ],
+52 silly audit   '@types/eslint': [ '8.44.2' ],
+52 silly audit   '@types/eslint__js': [ '8.42.0' ],
+52 silly audit   '@types/eslint-scope': [ '3.7.4' ],
+52 silly audit   '@types/esquery': [ '1.5.0' ],
+52 silly audit   '@types/estraverse': [ '5.1.3' ],
+52 silly audit   '@types/estree': [ '1.0.1' ],
+52 silly audit   '@types/esutils': [ '2.0.0' ],
+52 silly audit   '@types/fast-levenshtein': [ '0.0.2' ],
+52 silly audit   '@types/file-entry-cache': [ '5.0.2' ],
+52 silly audit   '@types/flat-cache': [ '2.0.0' ],
+52 silly audit   '@types/for-each': [ '0.3.0' ],
+52 silly audit   '@types/function-bind': [ '1.1.8' ],
+52 silly audit   '@types/gensync': [ '1.0.0' ],
+52 silly audit   '@types/get-intrinsic': [ '1.2.0' ],
+52 silly audit   '@types/glob-parent': [ '5.1.1' ],
+52 silly audit   '@types/globalthis': [ '1.0.1' ],
+52 silly audit   '@types/gopd': [ '1.0.0' ],
+52 silly audit   '@types/has': [ '1.0.0' ],
+52 silly audit   '@types/has-bigints': [ '1.0.0' ],
+52 silly audit   '@types/has-property-descriptors': [ '1.0.0' ],
+52 silly audit   '@types/has-symbols': [ '1.0.0' ],
+52 silly audit   '@types/imurmurhash': [ '0.1.1' ],
+52 silly audit   '@types/inherits': [ '0.0.30' ],
+52 silly audit   '@types/internal-slot': [ '1.0.1' ],
+52 silly audit   '@types/is-async-function': [ '2.0.0' ],
+52 silly audit   '@types/is-bigint': [ '1.0.0' ],
+52 silly audit   '@types/is-boolean-object': [ '1.1.0' ],
+52 silly audit   '@types/is-callable': [ '1.1.0' ],
+52 silly audit   '@types/is-core-module': [ '2.2.0' ],
+52 silly audit   '@types/is-date-object': [ '1.0.2' ],
+52 silly audit   '@types/is-generator-function': [ '1.0.1' ],
+52 silly audit   '@types/is-glob': [ '4.0.2' ],
+52 silly audit   '@types/is-map': [ '2.0.0' ],
+52 silly audit   '@types/is-regex': [ '1.0.0' ],
+52 silly audit   '@types/is-string': [ '1.0.0' ],
+52 silly audit   '@types/is-symbol': [ '1.0.0' ],
+52 silly audit   '@types/isarray': [ '2.0.0' ],
+52 silly audit   '@types/isexe': [ '2.0.1' ],
+52 silly audit   '@types/js-yaml': [ '4.0.6' ],
+52 silly audit   '@types/jsesc': [ '3.0.1' ],
+52 silly audit   '@types/json-buffer': [ '3.0.0' ],
+52 silly audit   '@types/json-schema': [ '7.0.12' ],
+52 silly audit   '@types/json-stable-stringify-without-jsonify': [ '1.0.0' ],
+52 silly audit   '@types/lodash': [ '4.14.198' ],
+52 silly audit   '@types/lodash.merge': [ '4.6.7' ],
+52 silly audit   '@types/ms': [ '0.7.31' ],
+52 silly audit   '@types/natural-compare': [ '1.4.1' ],
+52 silly audit   '@types/node': [ '20.6.0' ],
+52 silly audit   '@types/object-assign': [ '4.0.31' ],
+52 silly audit   '@types/object-inspect': [ '1.8.2' ],
+52 silly audit   '@types/object-keys': [ '1.0.1' ],
+52 silly audit   '@types/object.fromentries': [ '2.0.2' ],
+52 silly audit   '@types/once': [ '1.4.1' ],
+52 silly audit   '@types/path-is-absolute': [ '1.0.0' ],
+52 silly audit   '@types/path-parse': [ '1.0.19' ],
+52 silly audit   '@types/prelude-ls': [ '1.1.30' ],
+52 silly audit   '@types/prop-types': [ '15.7.6' ],
+52 silly audit   '@types/punycode': [ '2.1.0' ],
+52 silly audit   '@types/react': [ '18.2.22' ],
+52 silly audit   '@types/react-dom': [ '18.2.7' ],
+52 silly audit   '@types/react-is': [ '18.2.1' ],
+52 silly audit   '@types/react-refresh': [ '0.14.0' ],
+52 silly audit   '@types/resolve': [ '1.20.2' ],
+52 silly audit   '@types/run-parallel': [ '1.1.0' ],
+52 silly audit   '@types/safe-regex-test': [ '1.0.0' ],
+52 silly audit   '@types/scheduler': [ '0.16.3' ],
+52 silly audit   '@types/semver': [ '7.5.2' ],
+52 silly audit   '@types/shebang-command': [ '1.2.0' ],
+52 silly audit   '@types/string.prototype.matchall': [ '4.0.1' ],
+52 silly audit   '@types/supports-color': [ '8.1.1' ],
+52 silly audit   '@types/text-table': [ '0.2.3' ],
+52 silly audit   '@types/type-check': [ '0.3.28' ],
+52 silly audit   '@types/unbox-primitive': [ '1.0.1' ],
+52 silly audit   '@types/which': [ '3.0.0' ],
+52 silly audit   '@types/which-boxed-primitive': [ '1.0.0' ],
+52 silly audit   '@types/yallist': [ '4.0.1' ],
+52 silly audit   csstype: [ '3.1.2' ],
+52 silly audit   'to-fast-properties': [ '2.0.0' ],
+52 silly audit   'types-registry': [ '0.1.661' ]
+52 silly audit }
+53 timing reify:unpack Completed in 2ms
+54 timing reify:unretire Completed in 0ms
+55 timing build:queue Completed in 0ms
+56 timing build:deps Completed in 13ms
+57 timing build Completed in 15ms
+58 timing reify:build Completed in 30ms
+59 timing reify:trash Completed in 0ms
+60 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1768ms
+61 timing auditReport:getReport Completed in 1856ms
+62 silly audit report {}
+63 timing auditReport:init Completed in 0ms
+64 timing reify:audit Completed in 1861ms
+65 timing reify:save Completed in 1651ms
+66 timing reify Completed in 10910ms
+67 timing command:install Completed in 11154ms
+68 verbose exit 0
+69 timing npm Completed in 12348ms
+70 info ok

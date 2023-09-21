@@ -1,0 +1,23 @@
+2023-09-19 20:12:56.589 [info] Log level: Info
+2023-09-19 20:12:56.589 [info] Validating found git in: "git"
+2023-09-19 20:12:56.590 [info] Using git "2.34.1" from "git"
+2023-09-19 20:12:56.590 [info] > git rev-parse --show-toplevel [456ms]
+2023-09-19 20:12:56.845 [info] > git rev-parse --git-dir --git-common-dir [40ms]
+2023-09-19 20:12:57.092 [info] Open repository: /home/aom91/coursework/block27/ReactForm
+2023-09-19 20:12:57.450 [info] > git rev-parse --show-toplevel [40ms]
+2023-09-19 20:12:57.465 [info] > git config --get commit.template [228ms]
+2023-09-19 20:12:57.623 [info] > git rev-parse --show-toplevel [80ms]
+2023-09-19 20:12:57.744 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [144ms]
+2023-09-19 20:12:57.874 [info] > git status -z -uall [69ms]
+2023-09-19 20:12:58.070 [info] > git config --get commit.template [34ms]
+2023-09-19 20:12:58.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [38ms]
+2023-09-19 20:12:58.244 [info] > git status -z -uall [20ms]
+2023-09-19 20:12:59.610 [info] > git check-ignore -v -z --stdin [39ms]
+2023-09-19 20:13:19.007 [info] > git fetch [3222ms]
+2023-09-19 20:13:19.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [51ms]
+2023-09-19 20:13:19.381 [info] > git config --get commit.template [264ms]
+2023-09-19 20:13:19.501 [info] > git status -z -uall [53ms]
+2023-09-19 20:13:33.062 [info] > git config --get commit.template [7ms]
+2023-09-19 20:13:33.114 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [31ms]
+2023-09-19 20:13:33.135 [info] > git check-ignore -v -z --stdin [24ms]
+2023-09-19 20:13:33.143 [info] > git status -z -uall [12ms]

@@ -1,0 +1,5 @@
+[2023-09-20 00:50:05.976] [GIT  ] [/home/aom91/coursework/block27/ReactForm] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • HEAD does not point to a branch [1209ms] (slow)
+
+[2023-09-20 00:50:07.386] /home/aom91/.vscode-server/extensions/eamodio.gitlens-14.3.0/dist/gitlens.js:1:299061
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false merge-base REBASE_HEAD HEAD
+

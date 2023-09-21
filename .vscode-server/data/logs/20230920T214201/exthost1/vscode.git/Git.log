@@ -1,0 +1,26 @@
+2023-09-20 21:42:15.140 [info] Log level: Info
+2023-09-20 21:42:15.140 [info] Validating found git in: "git"
+2023-09-20 21:42:15.140 [info] Using git "2.34.1" from "git"
+2023-09-20 21:42:15.140 [info] > git rev-parse --show-toplevel [165ms]
+2023-09-20 21:42:15.145 [info] > git rev-parse --git-dir --git-common-dir [74ms]
+2023-09-20 21:42:15.305 [info] Open repository: /home/aom91
+2023-09-20 21:42:15.504 [info] > git rev-parse --show-toplevel [63ms]
+2023-09-20 21:42:15.522 [info] > git config --get commit.template [121ms]
+2023-09-20 21:42:15.705 [info] > git rev-parse --show-toplevel [54ms]
+2023-09-20 21:42:15.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [110ms]
+2023-09-20 21:42:17.808 [info] > git check-ignore -v -z --stdin [753ms]
+2023-09-20 21:42:17.819 [info] > git rev-parse --show-toplevel [2017ms]
+2023-09-20 21:42:18.344 [info] > git status -z -uall [2602ms]
+2023-09-20 21:42:18.344 [info] > git show --textconv :coursework/block28/ReactRouter/src/index.css [85ms]
+2023-09-20 21:42:18.347 [info] > git fetch [3053ms]
+2023-09-20 21:42:18.462 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/index.css [167ms]
+2023-09-20 21:42:18.533 [info] > git config --get commit.template [84ms]
+2023-09-20 21:42:18.540 [info] > git config --get commit.template [124ms]
+2023-09-20 21:42:18.557 [info] > git cat-file -s c949fe50b6bba9df7e8a66322ea9518a01d22725 [63ms]
+2023-09-20 21:42:18.745 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [37ms]
+2023-09-20 21:42:18.768 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [91ms]
+2023-09-20 21:42:19.779 [info] > git status -z -uall [1013ms] (cancelled)
+2023-09-20 21:42:19.790 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/index.css [85ms]
+2023-09-20 21:42:19.835 [info] > git cat-file -s c949fe50b6bba9df7e8a66322ea9518a01d22725 [21ms]
+2023-09-20 21:42:20.234 [info] > git show --textconv :coursework/block28/ReactRouter/src/index.css [209ms]
+2023-09-20 21:42:29.981 [info] > git check-ignore -v -z --stdin [45ms]

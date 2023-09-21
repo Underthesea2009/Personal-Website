@@ -1,0 +1,20 @@
+2023-09-19 21:24:33.207 [info] 
+
+
+
+
+2023-09-19 21:24:33.420 [info] Extension host agent started.
+2023-09-19 21:24:34.075 [info] [127.0.0.1][fab32991][ManagementConnection] New connection established.
+2023-09-19 21:24:39.118 [info] [127.0.0.1][fe4fa2e5][ExtensionHostConnection] New connection established.
+2023-09-19 21:24:44.281 [error] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2023-09-19 21:24:44.288 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2023-09-19 21:24:44.315 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2023-09-19 21:24:44.393 [info] [127.0.0.1][fe4fa2e5][ExtensionHostConnection] <5166> Launched Extension Host Process.
+2023-09-19 21:25:11.538 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2023-09-19 21:25:15.799 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2023-09-19 21:25:31.703 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2023-09-19 21:25:38.907 [info] [127.0.0.1][fe4fa2e5][ExtensionHostConnection] The client has reconnected.
+2023-09-20 08:11:29.172 [info] [127.0.0.1][fe4fa2e5][ExtensionHostConnection] The client has reconnected.
+2023-09-20 08:11:34.248 [info] [127.0.0.1][fab32991][ManagementConnection] The client has reconnected.
+2023-09-20 18:30:16.348 [info] [127.0.0.1][fab32991][ManagementConnection] The client has reconnected.
+2023-09-20 18:30:18.471 [info] [127.0.0.1][fe4fa2e5][ExtensionHostConnection] The client has reconnected.
