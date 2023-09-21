@@ -1,0 +1,6 @@
+{
+    "editor.fontSize": 16,
+    "terminal.integrated.fontFamily": "12",
+    "workbench.layoutControl.enabled": false,
+    "git.autofetch": true
+}

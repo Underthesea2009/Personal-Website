@@ -1,0 +1,15 @@
+2023-09-18 18:17:24.900 [warning] /home/aom91/.ssh/config: ENOENT: no such file or directory, open '/home/aom91/.ssh/config'
+2023-09-18 18:17:25.258 [info] Looking for git repository
+2023-09-18 18:17:25.259 [info] Found 0 repositories during activation
+2023-09-18 18:17:25.259 [info] Git repository found, initializing review manager and pr tree view.
+2023-09-18 18:17:25.317 [info] Registering git provider
+2023-09-18 18:17:25.317 [info] Review> Validate state in progress
+2023-09-18 18:17:25.317 [info] Review> Validating state...
+2023-09-18 18:17:25.421 [info] Found GitHub remote for folder /home/aom91
+2023-09-18 18:17:26.759 [info] Repo state for file:///home/aom91 changed.
+2023-09-18 18:17:26.759 [info] Repo file:///home/aom91 has already been setup.
+2023-09-18 18:17:28.760 [info] Trying to use globalState for assignableUsers.
+2023-09-18 18:17:29.478 [info] No globalState for assignableUsers.
+2023-09-18 18:17:30.158 [info] Review> No matching pull request metadata found locally for current branch main
+2023-09-18 18:17:30.159 [info] Review> no matching pull request metadata found for current branch main
+2023-09-18 18:17:30.160 [info] Review> No matching pull request metadata found on GitHub for current branch main

@@ -1,0 +1,72 @@
+2023-09-14 18:10:50.387 [info] 
+
+
+
+
+2023-09-14 18:10:50.448 [info] Extension host agent started.
+2023-09-14 18:10:50.647 [info] [127.0.0.1][774600d7][ManagementConnection] New connection established.
+2023-09-14 18:10:53.216 [info] [127.0.0.1][ba862440][ExtensionHostConnection] New connection established.
+2023-09-14 18:10:53.932 [info] [127.0.0.1][ba862440][ExtensionHostConnection] <1509> Launched Extension Host Process.
+2023-09-14 18:11:02.820 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/aom91/.vscode-server/data/logs/20230912T212418/exthost1/vscode.github' failed: No such file or directory (EUNKNOWN) (path: /home/aom91)
+2023-09-14 18:11:02.822 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/aom91/.vscode-server/data/logs/20230912T212418/exthost1/vscode.github' failed: No such file or directory
+2023-09-14 20:49:37.946 [warning] No ptyHost heartbeat after 6 seconds
+2023-09-14 21:53:28.488 [warning] No ptyHost heartbeat after 6 seconds
+2023-09-15 20:38:45.838 [info] [127.0.0.1][ba862440][ExtensionHostConnection] The client has reconnected.
+2023-09-15 20:38:47.217 [info] [127.0.0.1][774600d7][ManagementConnection] The client has reconnected.
+2023-09-15 20:42:41.052 [info] [127.0.0.1][774600d7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-15 20:42:41.103 [error] Error: Throttler is disposed
+    at c.queue (/home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:13632)
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:15216
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-15 20:42:41.382 [error] Error: Throttler is disposed
+    at c.queue (/home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:13632)
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:15216
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-15 20:42:41.389 [error] Error: Throttler is disposed
+    at c.queue (/home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:13632)
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:15216
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-15 20:42:41.390 [error] Error: Throttler is disposed
+    at c.queue (/home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:13632)
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:15216
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-15 20:42:41.390 [error] Error: Throttler is disposed
+    at c.queue (/home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:13632)
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:15216
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-15 20:42:41.391 [error] Error: Throttler is disposed
+    at c.queue (/home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:13632)
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:15216
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-15 20:42:41.392 [error] Error: Throttler is disposed
+    at c.queue (/home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:13632)
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:15216
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-15 20:42:41.396 [error] Error: Throttler is disposed
+    at c.queue (/home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:13632)
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:15216
+    at /home/aom91/.vscode-server/bin/6509174151d557a81c9d0b5f8a5a1e9274db5585/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)

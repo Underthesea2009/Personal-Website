@@ -1,0 +1,14 @@
+2023-09-13 21:42:47.236 [info] 
+
+
+
+
+2023-09-13 21:42:47.710 [info] Extension host agent started.
+2023-09-13 21:42:51.226 [info] [127.0.0.1][f2967077][ManagementConnection] New connection established.
+2023-09-13 21:43:00.868 [error] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2023-09-13 21:43:00.893 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2023-09-13 21:43:17.314 [info] [127.0.0.1][aa4ca9a9][ExtensionHostConnection] New connection established.
+2023-09-13 21:43:17.318 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2023-09-13 21:43:17.363 [info] [127.0.0.1][aa4ca9a9][ExtensionHostConnection] <1281> Launched Extension Host Process.
+2023-09-13 21:46:10.458 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2023-09-13 21:46:18.540 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
