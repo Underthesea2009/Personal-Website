@@ -1,0 +1,55 @@
+2023-09-20 22:15:46.949 [info] Log level: Info
+2023-09-20 22:15:46.949 [info] Validating found git in: "git"
+2023-09-20 22:15:46.949 [info] Using git "2.34.1" from "git"
+2023-09-20 22:15:46.949 [info] > git rev-parse --show-toplevel [1974ms]
+2023-09-20 22:15:46.949 [info] > git rev-parse --git-dir --git-common-dir [24ms]
+2023-09-20 22:15:46.949 [info] Open repository: /home/aom91/coursework/block28/ReactRouter
+2023-09-20 22:15:47.001 [info] > git rev-parse --show-toplevel [98ms]
+2023-09-20 22:15:47.001 [info] fatal: this operation must be run in a work tree
+2023-09-20 22:15:47.005 [info] > git config --get commit.template [118ms]
+2023-09-20 22:15:47.084 [info] > git rev-parse --show-toplevel [40ms]
+2023-09-20 22:15:47.136 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [56ms]
+2023-09-20 22:15:47.332 [info] > git rev-parse --show-toplevel [198ms]
+2023-09-20 22:15:47.400 [info] > git status -z -uall [214ms]
+2023-09-20 22:15:47.559 [info] > git config --get commit.template [78ms]
+2023-09-20 22:15:47.699 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [74ms]
+2023-09-20 22:15:47.756 [info] > git status -z -uall [19ms]
+2023-09-20 22:15:47.757 [info] > git rev-parse --show-toplevel [69ms]
+2023-09-20 22:15:47.758 [info] fatal: this operation must be run in a work tree
+2023-09-20 22:15:47.833 [info] > git fetch [1053ms]
+2023-09-20 22:15:48.945 [info] > git config --get commit.template [1079ms]
+2023-09-20 22:15:49.471 [info] > git rev-parse --show-toplevel [504ms]
+2023-09-20 22:15:49.472 [info] fatal: this operation must be run in a work tree
+2023-09-20 22:15:49.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [112ms]
+2023-09-20 22:15:49.557 [info] > git status -z -uall [55ms]
+2023-09-20 22:15:50.879 [info] > git rev-parse --show-toplevel [474ms]
+2023-09-20 22:15:51.033 [info] > git rev-parse --git-dir --git-common-dir [48ms]
+2023-09-20 22:15:51.094 [info] Open repository: /home/aom91
+2023-09-20 22:15:51.222 [info] > git config --get commit.template [76ms]
+2023-09-20 22:15:51.260 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-09-20 22:15:51.767 [info] > git show --textconv :.git/COMMIT_EDITMSG [143ms]
+2023-09-20 22:15:51.776 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [102ms]
+2023-09-20 22:15:52.002 [info] > git check-ignore -v -z --stdin [39ms]
+2023-09-20 22:15:52.034 [info] > git status -z -uall [733ms]
+2023-09-20 22:15:52.137 [info] > git config --get commit.template [12ms]
+2023-09-20 22:15:52.353 [info] > git fetch [1261ms]
+2023-09-20 22:15:52.359 [info] > git push -u origin main [2555ms]
+2023-09-20 22:15:52.359 [info] To https://github.com/Underthesea2009/ReactRouter.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Underthesea2009/ReactRouter.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2023-09-20 22:15:52.432 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [109ms]
+2023-09-20 22:15:52.447 [info] > git config --get commit.template [26ms]
+2023-09-20 22:15:52.447 [info] > git config --get commit.template [49ms]
+2023-09-20 22:15:52.490 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2023-09-20 22:15:52.561 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [74ms]
+2023-09-20 22:15:52.639 [info] > git status -z -uall [56ms]
+2023-09-20 22:15:53.246 [info] > git status -z -uall [731ms]
+2023-09-20 22:15:53.302 [info] > git check-ignore -v -z --stdin [143ms]
+2023-09-20 22:15:58.573 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [23ms]
+2023-09-20 22:15:58.620 [info] > git show --textconv :.git/COMMIT_EDITMSG [21ms]
+2023-09-20 22:16:01.532 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [4ms]
+2023-09-20 22:16:01.579 [info] > git show --textconv :.git/COMMIT_EDITMSG [16ms]

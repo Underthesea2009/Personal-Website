@@ -24,3 +24,345 @@
 2023-09-20 21:42:19.835 [info] > git cat-file -s c949fe50b6bba9df7e8a66322ea9518a01d22725 [21ms]
 2023-09-20 21:42:20.234 [info] > git show --textconv :coursework/block28/ReactRouter/src/index.css [209ms]
 2023-09-20 21:42:29.981 [info] > git check-ignore -v -z --stdin [45ms]
+2023-09-20 21:42:56.301 [info] > git add -A -- . [16485ms]
+2023-09-20 21:42:58.613 [info] > git show --textconv :.git/COMMIT_EDITMSG [69ms]
+2023-09-20 21:42:58.644 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [79ms]
+2023-09-20 21:42:58.902 [info] > git check-ignore -v -z --stdin [70ms]
+2023-09-20 21:42:58.907 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/index.css [45ms]
+2023-09-20 21:42:58.939 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [42ms]
+2023-09-20 21:42:58.949 [info] > git cat-file -s c949fe50b6bba9df7e8a66322ea9518a01d22725 [18ms]
+2023-09-20 21:42:59.011 [info] > git show --textconv :.git/COMMIT_EDITMSG [31ms]
+2023-09-20 21:42:59.022 [info] > git show --textconv :coursework/block28/ReactRouter/src/index.css [17ms]
+2023-09-20 21:44:36.953 [info] > git -c user.useConfigOnly=true commit --quiet [100632ms]
+2023-09-20 21:44:36.953 [info] Aborting commit due to empty commit message.
+2023-09-20 21:44:37.020 [info] > git config --get commit.template [45ms]
+2023-09-20 21:44:37.043 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2023-09-20 21:44:43.697 [info] > git status -z -uall [6612ms] (cancelled)
+2023-09-20 21:45:20.183 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/index.css [12ms]
+2023-09-20 21:45:20.205 [info] > git cat-file -s c949fe50b6bba9df7e8a66322ea9518a01d22725 [3ms]
+2023-09-20 21:45:20.253 [info] > git show --textconv :coursework/block28/ReactRouter/src/index.css [19ms]
+2023-09-20 21:45:21.806 [info] > git fetch [2981ms]
+2023-09-20 21:45:21.806 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+2023-09-20 21:45:21.851 [info] > git config --get commit.template [10ms]
+2023-09-20 21:45:21.876 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-09-20 21:45:33.819 [info] > git status -z -uall [11924ms] (cancelled)
+2023-09-20 21:45:37.123 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/index.css [53ms]
+2023-09-20 21:45:37.164 [info] > git cat-file -s c949fe50b6bba9df7e8a66322ea9518a01d22725 [6ms]
+2023-09-20 21:45:37.233 [info] > git show --textconv :coursework/block28/ReactRouter/src/index.css [14ms]
+2023-09-20 21:45:53.738 [info] > git remote add rr https://github.com/Underthesea2009/ReactRouter.git [14ms]
+2023-09-20 21:45:53.772 [info] > git config --get commit.template [2ms]
+2023-09-20 21:45:53.797 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-09-20 21:46:00.141 [info] > git status -z -uall [6320ms] (cancelled)
+2023-09-20 21:46:00.143 [info] > git fetch rr [5234ms]
+2023-09-20 21:46:00.143 [info] From https://github.com/Underthesea2009/ReactRouter
+ * [new branch]        main       -> rr/main
+2023-09-20 21:46:00.530 [info] > git config --get commit.template [96ms]
+2023-09-20 21:46:00.721 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [62ms]
+2023-09-20 21:46:10.084 [info] > git status -z -uall [9186ms] (cancelled)
+2023-09-20 21:46:10.630 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/index.css [566ms]
+2023-09-20 21:46:11.110 [info] > git cat-file -s c949fe50b6bba9df7e8a66322ea9518a01d22725 [280ms]
+2023-09-20 21:46:13.632 [info] > git show --textconv :coursework/block28/ReactRouter/src/index.css [58ms]
+2023-09-20 21:46:14.327 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/index.css [26ms]
+2023-09-20 21:46:14.396 [info] > git cat-file -s c949fe50b6bba9df7e8a66322ea9518a01d22725 [16ms]
+2023-09-20 21:46:14.604 [info] > git show --textconv :coursework/block28/ReactRouter/src/index.css [29ms]
+2023-09-20 21:46:15.024 [info] > git push rr main [11230ms]
+2023-09-20 21:46:15.025 [info] To https://github.com/Underthesea2009/ReactRouter.git
+ ! [rejected]          main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Underthesea2009/ReactRouter.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2023-09-20 21:46:15.128 [info] > git config --get commit.template [9ms]
+2023-09-20 21:46:15.188 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2023-09-20 21:46:16.071 [info] > git show --textconv :.git/COMMIT_EDITMSG [88ms]
+2023-09-20 21:46:16.168 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/index.css [275ms]
+2023-09-20 21:46:16.305 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [245ms]
+2023-09-20 21:46:16.325 [info] > git cat-file -s c949fe50b6bba9df7e8a66322ea9518a01d22725 [38ms]
+2023-09-20 21:46:22.584 [info] > git status -z -uall [7330ms] (cancelled)
+2023-09-20 21:46:22.585 [info] > git show --textconv :coursework/block28/ReactRouter/src/index.css [5726ms]
+2023-09-20 21:46:49.023 [info] > git -c user.useConfigOnly=true commit --quiet [38542ms]
+2023-09-20 21:46:49.024 [info] Aborting commit due to empty commit message.
+2023-09-20 21:46:49.123 [info] > git config --get commit.template [43ms]
+2023-09-20 21:46:49.125 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2023-09-20 21:46:55.617 [info] > git status -z -uall [6461ms] (cancelled)
+2023-09-20 21:47:00.909 [info] > git show --textconv :.git/COMMIT_EDITMSG [58ms]
+2023-09-20 21:47:00.926 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [26ms]
+2023-09-20 21:47:01.820 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/index.css [30ms]
+2023-09-20 21:47:01.848 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [31ms]
+2023-09-20 21:47:01.852 [info] > git cat-file -s c949fe50b6bba9df7e8a66322ea9518a01d22725 [7ms]
+2023-09-20 21:47:01.920 [info] > git show --textconv :.git/COMMIT_EDITMSG [37ms]
+2023-09-20 21:47:01.932 [info] > git show --textconv :coursework/block28/ReactRouter/src/index.css [15ms]
+2023-09-20 21:47:40.996 [info] > git -c user.useConfigOnly=true commit --quiet [43114ms]
+2023-09-20 21:47:40.996 [info] Aborting commit due to empty commit message.
+2023-09-20 21:47:41.050 [info] > git config --get commit.template [11ms]
+2023-09-20 21:47:41.097 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2023-09-20 21:47:48.574 [info] > git status -z -uall [7444ms] (cancelled)
+2023-09-20 21:47:51.014 [info] > git show --textconv :coursework/block28/ReactRouter/src/App.css [39ms]
+2023-09-20 21:47:51.024 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/App.css [18ms]
+2023-09-20 21:47:51.057 [info] > git cat-file -s b9d355df2a5956b526c004531b7b0ffe412461e0 [4ms]
+2023-09-20 21:49:19.186 [info] > git fetch [1462ms]
+2023-09-20 21:49:19.230 [info] > git config --get commit.template [6ms]
+2023-09-20 21:49:19.252 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-09-20 21:49:22.820 [info] > git status -z -uall [3549ms] (cancelled)
+2023-09-20 21:51:56.111 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/App.css [12ms]
+2023-09-20 21:51:56.133 [info] > git cat-file -s b9d355df2a5956b526c004531b7b0ffe412461e0 [2ms]
+2023-09-20 21:51:56.174 [info] > git show --textconv :coursework/block28/ReactRouter/src/App.css [12ms]
+2023-09-20 21:52:57.496 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/App.css [14ms]
+2023-09-20 21:52:57.521 [info] > git cat-file -s b9d355df2a5956b526c004531b7b0ffe412461e0 [3ms]
+2023-09-20 21:52:57.779 [info] > git show --textconv :coursework/block28/ReactRouter/src/App.css [28ms]
+2023-09-20 21:52:57.927 [info] > git show --textconv :.git/COMMIT_EDITMSG [48ms]
+2023-09-20 21:52:57.955 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [31ms]
+2023-09-20 21:52:58.789 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/App.css [24ms]
+2023-09-20 21:52:58.818 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [31ms]
+2023-09-20 21:52:58.821 [info] > git cat-file -s b9d355df2a5956b526c004531b7b0ffe412461e0 [8ms]
+2023-09-20 21:52:58.891 [info] > git show --textconv :.git/COMMIT_EDITMSG [42ms]
+2023-09-20 21:52:58.898 [info] > git show --textconv :coursework/block28/ReactRouter/src/App.css [15ms]
+2023-09-20 21:52:58.973 [info] > git fetch [1664ms]
+2023-09-20 21:52:59.013 [info] > git config --get commit.template [21ms]
+2023-09-20 21:52:59.015 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-09-20 21:52:59.283 [info] > git status -z -uall [249ms]
+2023-09-20 21:53:00.447 [info] > git config --get commit.template [3ms]
+2023-09-20 21:53:00.467 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-09-20 21:53:00.779 [info] > git status -z -uall [291ms]
+2023-09-20 21:53:01.145 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/App.css [46ms]
+2023-09-20 21:53:01.167 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [31ms]
+2023-09-20 21:53:01.170 [info] > git cat-file -s b9d355df2a5956b526c004531b7b0ffe412461e0 [6ms]
+2023-09-20 21:53:01.220 [info] > git show --textconv :.git/COMMIT_EDITMSG [23ms]
+2023-09-20 21:53:01.232 [info] > git show --textconv :coursework/block28/ReactRouter/src/App.css [15ms]
+2023-09-20 21:53:01.669 [info] > git check-ignore -v -z --stdin [52ms]
+2023-09-20 21:53:07.396 [info] > git config --get commit.template [9ms]
+2023-09-20 21:53:07.419 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-09-20 21:53:07.704 [info] > git status -z -uall [268ms]
+2023-09-20 21:53:14.176 [info] > git config --get commit.template [36ms]
+2023-09-20 21:53:14.179 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-09-20 21:53:14.482 [info] > git status -z -uall [279ms]
+2023-09-20 21:53:19.590 [info] > git config --get commit.template [49ms]
+2023-09-20 21:53:19.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2023-09-20 21:53:19.893 [info] > git status -z -uall [262ms]
+2023-09-20 21:53:24.961 [info] > git config --get commit.template [10ms]
+2023-09-20 21:53:25.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2023-09-20 21:53:25.307 [info] > git status -z -uall [259ms]
+2023-09-20 21:53:30.369 [info] > git config --get commit.template [13ms]
+2023-09-20 21:53:30.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-09-20 21:53:30.650 [info] > git status -z -uall [239ms]
+2023-09-20 21:53:35.694 [info] > git config --get commit.template [5ms]
+2023-09-20 21:53:35.716 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-09-20 21:53:35.979 [info] > git status -z -uall [246ms]
+2023-09-20 21:53:41.066 [info] > git config --get commit.template [29ms]
+2023-09-20 21:53:41.068 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-09-20 21:53:41.355 [info] > git status -z -uall [270ms]
+2023-09-20 21:53:46.418 [info] > git config --get commit.template [7ms]
+2023-09-20 21:53:46.438 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-09-20 21:53:46.731 [info] > git status -z -uall [276ms]
+2023-09-20 21:53:57.821 [info] > git config --get commit.template [45ms]
+2023-09-20 21:53:57.846 [info] > git add -A -- . [29ms]
+2023-09-20 21:53:57.846 [info] fatal: Unable to create '/home/aom91/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2023-09-20 21:53:57.848 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-09-20 21:53:57.928 [info] > git add -A -- . [6ms]
+2023-09-20 21:53:57.929 [info] fatal: Unable to create '/home/aom91/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2023-09-20 21:53:58.233 [info] > git add -A -- . [73ms]
+2023-09-20 21:53:58.234 [info] fatal: Unable to create '/home/aom91/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2023-09-20 21:53:58.307 [info] > git status -z -uall [438ms]
+2023-09-20 21:53:58.726 [info] > git add -A -- . [8ms]
+2023-09-20 21:53:58.727 [info] fatal: Unable to create '/home/aom91/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2023-09-20 21:53:59.574 [info] > git add -A -- . [4ms]
+2023-09-20 21:53:59.574 [info] fatal: Unable to create '/home/aom91/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2023-09-20 21:54:00.874 [info] > git add -A -- . [13ms]
+2023-09-20 21:54:00.874 [info] fatal: Unable to create '/home/aom91/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2023-09-20 21:54:02.726 [info] > git add -A -- . [15ms]
+2023-09-20 21:54:02.726 [info] fatal: Unable to create '/home/aom91/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2023-09-20 21:54:05.199 [info] > git add -A -- . [5ms]
+2023-09-20 21:54:05.200 [info] fatal: Unable to create '/home/aom91/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2023-09-20 21:54:08.454 [info] > git add -A -- . [13ms]
+2023-09-20 21:54:08.455 [info] fatal: Unable to create '/home/aom91/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2023-09-20 21:54:12.564 [info] > git add -A -- . [13ms]
+2023-09-20 21:54:12.565 [info] fatal: Unable to create '/home/aom91/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2023-09-20 21:54:17.619 [info] > git add -A -- . [16ms]
+2023-09-20 21:54:17.621 [info] fatal: Unable to create '/home/aom91/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2023-09-20 21:54:17.713 [info] > git config --get commit.template [43ms]
+2023-09-20 21:54:17.717 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2023-09-20 21:54:18.052 [info] > git status -z -uall [294ms]
+2023-09-20 21:54:18.109 [info] > git config --get commit.template [21ms]
+2023-09-20 21:54:18.110 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2023-09-20 21:54:18.498 [info] > git status -z -uall [368ms]
+2023-09-20 21:54:23.674 [info] > git config --get commit.template [5ms]
+2023-09-20 21:54:23.698 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-09-20 21:54:23.961 [info] > git status -z -uall [247ms]
+2023-09-20 21:54:29.064 [info] > git config --get commit.template [44ms]
+2023-09-20 21:54:29.068 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2023-09-20 21:54:29.378 [info] > git status -z -uall [273ms]
+2023-09-20 21:54:34.492 [info] > git config --get commit.template [56ms]
+2023-09-20 21:54:34.495 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2023-09-20 21:54:34.813 [info] > git status -z -uall [280ms]
+2023-09-20 21:54:39.847 [info] > git config --get commit.template [4ms]
+2023-09-20 21:54:39.870 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-09-20 21:54:40.129 [info] > git status -z -uall [240ms]
+2023-09-20 21:54:45.211 [info] > git config --get commit.template [34ms]
+2023-09-20 21:54:45.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-09-20 21:54:45.480 [info] > git status -z -uall [249ms]
+2023-09-20 21:54:51.892 [info] > git push rr main [2175ms]
+2023-09-20 21:54:51.892 [info] To https://github.com/Underthesea2009/ReactRouter.git
+ ! [rejected]          main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Underthesea2009/ReactRouter.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2023-09-20 21:54:51.996 [info] > git config --get commit.template [43ms]
+2023-09-20 21:54:51.998 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2023-09-20 21:54:52.318 [info] > git status -z -uall [286ms]
+2023-09-20 21:54:52.378 [info] > git config --get commit.template [22ms]
+2023-09-20 21:54:52.379 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-09-20 21:54:52.804 [info] > git status -z -uall [404ms]
+2023-09-20 21:55:00.696 [info] > git config --get commit.template [4ms]
+2023-09-20 21:55:00.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-09-20 21:55:01.038 [info] > git status -z -uall [296ms]
+2023-09-20 21:55:06.122 [info] > git config --get commit.template [22ms]
+2023-09-20 21:55:06.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-09-20 21:55:06.433 [info] > git status -z -uall [291ms]
+2023-09-20 21:55:08.247 [info] > git log --oneline --cherry main...main@{upstream} -- [2ms]
+2023-09-20 21:55:08.247 [info] fatal: no upstream configured for branch 'main'
+2023-09-20 21:55:09.749 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/App.css [57ms]
+2023-09-20 21:55:09.769 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [37ms]
+2023-09-20 21:55:09.772 [info] > git cat-file -s b9d355df2a5956b526c004531b7b0ffe412461e0 [7ms]
+2023-09-20 21:55:09.819 [info] > git show --textconv :.git/COMMIT_EDITMSG [25ms]
+2023-09-20 21:55:09.828 [info] > git show --textconv :coursework/block28/ReactRouter/src/App.css [12ms]
+2023-09-20 21:55:10.160 [info] > git pull --tags [1887ms]
+2023-09-20 21:55:10.161 [info] There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> main
+2023-09-20 21:55:10.352 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [108ms]
+2023-09-20 21:55:10.353 [info] > git config --get commit.template [146ms]
+2023-09-20 21:55:10.628 [info] > git status -z -uall [258ms]
+2023-09-20 21:55:16.992 [info] > git config --get commit.template [4ms]
+2023-09-20 21:55:17.064 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/App.css [26ms]
+2023-09-20 21:55:17.088 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [71ms]
+2023-09-20 21:55:17.112 [info] > git cat-file -s b9d355df2a5956b526c004531b7b0ffe412461e0 [24ms]
+2023-09-20 21:55:17.116 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [55ms]
+2023-09-20 21:55:17.355 [info] > git show --textconv :coursework/block28/ReactRouter/src/App.css [32ms]
+2023-09-20 21:55:17.376 [info] > git show --textconv :.git/COMMIT_EDITMSG [23ms]
+2023-09-20 21:55:17.441 [info] > git status -z -uall [330ms]
+2023-09-20 21:55:22.497 [info] > git config --get commit.template [7ms]
+2023-09-20 21:55:22.539 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-09-20 21:55:22.827 [info] > git status -z -uall [271ms]
+2023-09-20 21:55:27.888 [info] > git config --get commit.template [6ms]
+2023-09-20 21:55:27.925 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-09-20 21:55:28.239 [info] > git status -z -uall [294ms]
+2023-09-20 21:55:33.289 [info] > git config --get commit.template [3ms]
+2023-09-20 21:55:33.310 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-09-20 21:55:33.617 [info] > git status -z -uall [283ms]
+2023-09-20 21:55:38.693 [info] > git config --get commit.template [20ms]
+2023-09-20 21:55:38.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-09-20 21:55:38.986 [info] > git status -z -uall [272ms]
+2023-09-20 21:55:44.069 [info] > git config --get commit.template [24ms]
+2023-09-20 21:55:44.071 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-09-20 21:55:44.380 [info] > git status -z -uall [278ms]
+2023-09-20 21:55:49.459 [info] > git config --get commit.template [27ms]
+2023-09-20 21:55:49.461 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-09-20 21:55:49.761 [info] > git status -z -uall [282ms]
+2023-09-20 21:55:54.851 [info] > git config --get commit.template [34ms]
+2023-09-20 21:55:54.853 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-09-20 21:55:55.161 [info] > git status -z -uall [285ms]
+2023-09-20 21:56:00.728 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/App.css [33ms]
+2023-09-20 21:56:00.753 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [28ms]
+2023-09-20 21:56:00.758 [info] > git cat-file -s b9d355df2a5956b526c004531b7b0ffe412461e0 [13ms]
+2023-09-20 21:56:00.845 [info] > git show --textconv :.git/COMMIT_EDITMSG [37ms]
+2023-09-20 21:56:00.859 [info] > git show --textconv :coursework/block28/ReactRouter/src/App.css [20ms]
+2023-09-20 21:56:01.816 [info] > git fetch [2383ms]
+2023-09-20 21:56:01.880 [info] > git config --get commit.template [5ms]
+2023-09-20 21:56:01.916 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2023-09-20 21:56:02.191 [info] > git status -z -uall [253ms]
+2023-09-20 21:56:02.228 [info] > git config --get commit.template [4ms]
+2023-09-20 21:56:02.258 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2023-09-20 21:56:02.591 [info] > git status -z -uall [311ms]
+2023-09-20 21:56:03.134 [info] > git ls-files --stage -- /home/aom91/coursework/block28/ReactRouter/src/App.css [38ms]
+2023-09-20 21:56:03.164 [info] > git ls-files --stage -- /home/aom91/.git/COMMIT_EDITMSG [43ms]
+2023-09-20 21:56:03.171 [info] > git cat-file -s b9d355df2a5956b526c004531b7b0ffe412461e0 [10ms]
+2023-09-20 21:56:03.245 [info] > git show --textconv :.git/COMMIT_EDITMSG [42ms]
+2023-09-20 21:56:03.259 [info] > git show --textconv :coursework/block28/ReactRouter/src/App.css [18ms]
+2023-09-20 21:56:07.649 [info] > git config --get commit.template [6ms]
+2023-09-20 21:56:07.712 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2023-09-20 21:56:08.022 [info] > git status -z -uall [290ms]
+2023-09-20 21:56:13.061 [info] > git config --get commit.template [3ms]
+2023-09-20 21:56:13.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2023-09-20 21:56:13.442 [info] > git status -z -uall [326ms]
+2023-09-20 21:56:18.501 [info] > git config --get commit.template [7ms]
+2023-09-20 21:56:18.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-09-20 21:56:18.845 [info] > git status -z -uall [290ms]
+2023-09-20 21:56:23.910 [info] > git config --get commit.template [27ms]
+2023-09-20 21:56:23.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-09-20 21:56:24.206 [info] > git status -z -uall [275ms]
